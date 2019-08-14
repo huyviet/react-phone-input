@@ -1,0 +1,73 @@
+{
+  "_from": "git+https://github.com/huyviet/react-phone-input.git",
+  "_id": "react-phone-input@1.0.2",
+  "_inBundle": false,
+  "_location": "/react-phone-input",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "react-phone-input@git+https://github.com/huyviet/react-phone-input.git",
+    "name": "react-phone-input",
+    "escapedName": "react-phone-input",
+    "rawSpec": "git+https://github.com/huyviet/react-phone-input.git",
+    "saveSpec": "git+https://github.com/huyviet/react-phone-input.git",
+    "fetchSpec": "https://github.com/huyviet/react-phone-input.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_spec": "react-phone-input@git+https://github.com/huyviet/react-phone-input.git",
+  "_where": "/home/gocare/public_html",
+  "bugs": {
+    "url": "https://github.com/huyviet/react-phone-input/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [],
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "deprecated": false,
+  "description": "A react component to format phone numbers",
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^0.8.5",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "react-hot-loader": "^1.3.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.13.0"
+  },
+  "homepage": "https://github.com/huyviet/react-phone-input",
+  "keywords": [
+    "react",
+    "phone",
+    "format",
+    "telephone"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "react-phone-input",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huyviet/react-phone-input.git"
+  },
+  "scripts": {
+    "build": "TARGET=build webpack -p --progress",
+    "dev": "TARGET=dev webpack-dev-server --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
+}
